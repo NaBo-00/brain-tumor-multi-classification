@@ -1,0 +1,33 @@
+.header {
+    padding: 20px 20px 10px 20px; /* Padding: top, right, bottom, left */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #598392;
+    max-width: 100%; /* Set maximum width to prevent horizontal overflow */
+    overflow-x: hidden; /* Hide horizontal overflow */
+  }
+  
+  .logo-header {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    gap: 10px;
+  }
+  
+  .header-img img {
+    border-radius: 15px;
+    max-width: 100%; /* Ensure image doesn't exceed container width */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .link{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+  }
+
+  .link:hover{
+    color:rgb(145, 255, 145)
+  }
+  

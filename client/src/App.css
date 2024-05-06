@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.App-body{
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.labels p{
+  margin: 0;
+}
+
+.select-image{
+  margin-top: 35px;
+}
+
+.submitClassification, .uploadImages{
+  margin-bottom: 25px;
+  background-color: #598392;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: black;
+}
+
+.submitClassification:hover, .uploadImages:hover{
+  background-color: green;
+  cursor: pointer;
+}
