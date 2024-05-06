@@ -1,0 +1,8 @@
+# Dependencies
+client/node_modules/
+
+# Build
+client/build/
+
+# venv
+server/venv/
