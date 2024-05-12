@@ -56,6 +56,7 @@ This web application is designed to classify brain tumor images in MRI scans. It
 - **Requirements:**
   - node.js version: v18.12.1
   - Python version: 3.11.2
+  - Flask version: 3.0.3
   - Chrome version: 124.0.6367.119
   - Windows 11 OS
 
@@ -92,6 +93,10 @@ To run this project locally, follow these steps:
 
   - the ./img/test_img_true directory provides successfully classified and highlighted images for testing 
   - the ./img/test_img_false provides falsly classified and highlighted images for testing 
+  - Example of Meningioma Tumor Classification:
+    <div align="center">
+      <img src="./img/readme_img/BT-Classification.png" alt="BT Meningioma Classification" witdh="500" height="650">
+    </div>
 
 ## Bugs and Feature Request
 
