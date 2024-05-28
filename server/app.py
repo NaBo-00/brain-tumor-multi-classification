@@ -14,7 +14,8 @@ app = Flask(__name__, static_url_path='', static_folder='../client/build', templ
 CORS(app)  
 
 # Load the model during initialization
-model = keras.models.load_model("./bt-model.h5")
+# Chose one model: ./bt-model1.h5, ./bt-model2.h5, or ./bt-model3.h5
+model = keras.models.load_model("./bt-model1.h5")
 
 # Error handler for 404
 @app.errorhandler(404)
