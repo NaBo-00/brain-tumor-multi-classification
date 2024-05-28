@@ -1,3 +1,6 @@
+#.gitattributes
+.gitattributes
+
 # Dependencies
 client/node_modules/
 
